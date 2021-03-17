@@ -9,20 +9,23 @@ class Life_Cycle extends Component {
     }
 
     componentDidMount() {
+        console.log("component mounted..")
         this.interval = setInterval(this.tick, 1000);
     }
 
     componentWillUnmount() {
+        console.log("component unmount..")
         clearInterval(this.interval);
     }
 
     tick = () => {
+        console.log("tick method called..")
         this.setState({ count: this.state.count + 1 });
  }
 
     render() {
         return (
-            <h1>{ this.state.count }</h1>
+            <h1>{this.state.count}</h1>
         );
     }
 }

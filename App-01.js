@@ -3,7 +3,7 @@ import useCustomHooks from './customHooks';
 
   const App01 = (props) => {
 
-    const [data, incData] = useCustomHooks();
+    const [data, incData] = useCustomHooks(5);
 
     return (
         <React.Fragment>

@@ -7,6 +7,9 @@ import App3 from './App-03';
 import reportWebVitals from './reportWebVitals';
 import Life_Cycle from './App-04';
 import Life_Cycle_Fun from './Life_Cycle_Fun';
+import Effect_Example from './App-05';
+import Home from './App-06';
+import Router_Example from './App-06';
 /*
 ReactDOM.render(
   <React.StrictMode>
@@ -21,8 +24,7 @@ ReactDOM.render(
 
 ReactDOM.render(
     <React.StrictMode>
-        <Life_Cycle />
-        <Life_Cycle_Fun/>
+        <Router_Example />
     </React.StrictMode>
     , document.getElementById('root')
 );

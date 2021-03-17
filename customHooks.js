@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-const useCustomHooks = () => {
-   const [count, setCount] = useState(0);
+const useCustomHooks = (initState) => {
+    const [count, setCount] = useState(initState);
 
     const handleClick = () => {
         setCount(count + 1)
