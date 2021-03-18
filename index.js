@@ -10,6 +10,7 @@ import Life_Cycle_Fun from './Life_Cycle_Fun';
 import Effect_Example from './App-05';
 import Home from './App-06';
 import Router_Example from './App-06';
+import Use_Effect1 from './App-A2.js';
 /*
 ReactDOM.render(
   <React.StrictMode>
